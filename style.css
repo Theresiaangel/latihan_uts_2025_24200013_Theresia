@@ -7,12 +7,9 @@
 }
 
 body{
-   box-sizing: border-box; 
-   margin: none;
-   padding: none;
    font-family: inter sans-serif;
    background-color:#f4f6fa ;
-   font: var(--font color);
+   font: var(--text color);
 }
 
 header {
@@ -26,18 +23,100 @@ header {
     
 }
 
-h1{
+header h1{
     font-size: 3rem;
     font-weight:800;
     margin-bottom: 15px;
 
 }
 
-p {
+header p {
     font-size:1.2rem ;
     margin-bottom:30px ;
-  
 }
 
+.cta-btn{
+  background-color:white;  
+  color:var(--accent);
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
 
+.cth-btn:hover{
+   background-color: #ddd; 
+}
+
+.content-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1100px;
+    text-align: center;   
+}
+.content-section h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary);
+}
+.content-section p{
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-height: 800px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.activities{
+    border-top: 1px dashed gray ;
+}
+
+.activity-grid{
+    display: grid ;
+    grid-auto-columns: 250px ;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+
+.activity{
+    background-color: white;
+    padding: 30px 20px ;
+    border-radius: 12px;
+    box-shadow: 0px rgba(rgb(227, 220, 220))  ;
+    transition: transform 0.3s ease 0.3s ease;
+}
+.activity:hover{
+    transform: translateY(-5px);
+
+}
+
+.activity i{
+    font-size:2.5rem ;
+    color: var(--accent);
+}
+
+.activity h3{
+    font-size:1.3rem ;
+    color: var(--primary);
+}
+
+footer{
+    background: color #222; text: color #bbb ;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+@media(max-width: 768px){
+    h1{
+        font-size: 2.2rem;
+    }
+    .content-section p{
+        font-size:1rem ;
+    }
+}
 
