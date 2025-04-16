@@ -2,7 +2,7 @@ Buatlah external style sheet berdasarkan petunjuk berikut ini:
 
 1. Definisikan Variabel CSS di :root
 --primary: gunakan warna #2c3e50
---accent: gunakan warna #6c63ff
+--accent: gunakan warna#6c63ff
 --gradient-bg: buat gradien dari kiri ke kanan dengan kombinasi #6c63ff, #7b68ee, dan #a067e3
 --text: gunakan warna #333
 
